@@ -1,0 +1,84 @@
+body 
+{
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size:12px;
+    color:#333;
+    margin:0px;
+    padding:0px;
+}
+#content 
+{
+    margin:0px;
+    padding:0px;
+}
+
+/* hide the icons in all tree nodes */
+.x-tree-node-icon
+{
+   display:none;
+   /*background-image: url('') ! important;*/
+}
+/* high contrast for the selected tree node */
+.x-tree-selected
+{
+    background-color: #aaaaff  ! important;
+}
+/* help text */
+.important
+{
+    font-size: 125%;
+}
+
+.help-para
+{
+    padding-left:10px;
+    padding: 6px;
+    padding-right:10px;
+}
+.help-ul
+{
+    margin-left:12px;
+    list-style-type: disc;
+}
+.help-li
+{
+    margin-left:12px;
+    padding-bottom: 9px;
+}
+/* in the information popups; this div is used to show terms on the path: */
+.infoWindowOntologyTerm
+{
+    white-space: nowrap;
+}
+/* in the information popups; this class is used to add a 'connected' image: */
+.infoWindowOntologyNonRootTerm
+{
+    background-image: url('images/step.png');
+    background-repeat: no-repeat;   
+}
+/* in the information popups; this class is used to highlight the matched term on the path: */
+.infoWindowOntologyMatchedTerm
+{
+    font-weight:bold;
+}
+/* in the information popups; this class is used to highlight the matched term on the path: */
+.infoWindowOntologyKeywords
+{
+    font-weight:bold;
+    color:blue;
+}
+
+/* in the information popups; this class is used to highlight the matched term on the path: */
+.infoWindowOntologyFullSentence
+{
+    font-weight:normal;
+    color:black;
+	font-size:85%;
+}
+
+/* in the information popups; this class is used to highlight the selected term[s] on the path: */
+.infoWindowOntologySelectedTerm
+{
+    font-weight:bold;
+    color:red;
+}
