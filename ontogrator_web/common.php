@@ -1,5 +1,8 @@
 <?php
 
+// All code is copyright the Natural Environment Research Council and University of Manchester
+// Released under GPLv3 - see LICENCE file for details.
+
 function get_ontology_terms()
 {
   global $ontology_infos;

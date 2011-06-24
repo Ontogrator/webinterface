@@ -1,4 +1,7 @@
 // ===============================================================================================
+// All code is copyright the Natural Environment Research Council and University of Manchester
+// unless otherwise indicated.  (Ext JS is copyright Ext JS LLC - see ext-all-debug.js)
+// Released under GPLv3 - see LICENCE file for details.
 
 // REMEMBER! The php file "config.php" also contains configuration!
 
